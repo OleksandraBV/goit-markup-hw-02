@@ -1,51 +1,61 @@
-body {
-    background-color: #F5F5F5;
-    color: #212121;
-
-    font-family: 'Roboto' sans-serif;
-}
-
 /* колір основного тексту #212121 */
 /* вторичний колір тексту #757575 */
 /* білий #FFFFFF */
 /* акцент #2196F3 */
 /* колір фону #F5F5F5 */
+:root {
+    --primary-tex-color: #212121;
+    --title-tex-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: var(--primary-tex-color);
+}
 
 .logo {
     color: #000000;
 }
 
 .accent {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* site nav */
 .site-nav .link {
-    color: #212121
+    color: var(--primary-tex-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .aut-nav a:hover,
 .aut-nav a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .aut-nav list {
-    color: #757575;
+    color: var(--title-tex-color);
 }
 
 ul {
     list-style: none;
 }
 
+/* Унікальний контент сторінки */
 .section {
-    color: #212121
+    color: var(--primary-tex-color)
 }
 
 .section-title {
-    color: #757575;
+    color: var(--title-tex-color);
+}
+
+/* Підвал сторінки */
+
+.accent-second {
+    colo: #FFFFFF;
 }
