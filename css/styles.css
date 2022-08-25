@@ -12,10 +12,19 @@
 body {
     background-color: #F5F5F5;
     color: var(--primary-tex-color);
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 500;
 }
 
 .logo {
     color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
 }
 
 .accent {
@@ -25,6 +34,9 @@ body {
 /* site nav */
 .site-nav .link {
     color: var(--primary-tex-color);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -36,13 +48,11 @@ body {
     color: var(--accent-color);
 }
 
-.aut-nav a:hover,
-.aut-nav a:focus {
+.aut-nav .link {
     color: var(--accent-color);
-}
-
-.aut-nav list {
-    color: var(--title-tex-color);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 ul {
@@ -57,6 +67,10 @@ ul {
 .button :focus {
     color: var(--primary-tex-color);
     cursor: pointer;
+    front-family: inherit;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
 }
 
 .button.primery {
@@ -66,18 +80,29 @@ ul {
 
 
 .section {
-    color: var(--primary-tex-color)
+    color: var(--primary-tex-color) font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em
 }
 
 .section-title {
     color: var(--title-tex-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
 }
 
 /* Підвал сторінки */
 .address {
-    color: rgba(255, 255, 255, 0.6)
+    color: rgba(255, 255, 255, 0.6) font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .address .link {
     color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
