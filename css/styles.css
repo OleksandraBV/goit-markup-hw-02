@@ -32,6 +32,10 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 .aut-nav a:hover,
 .aut-nav a:focus {
     color: var(--accent-color);
@@ -51,6 +55,7 @@ ul {
 
 .button {
     color: var(--primary-tex-color);
+    cursor: pointer;
 }
 
 .button.primery {
