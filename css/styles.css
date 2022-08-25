@@ -53,7 +53,8 @@ ul {
 
 /* Button */
 
-.button {
+.button :hover,
+.button :focus {
     color: var(--primary-tex-color);
     cursor: pointer;
 }
@@ -73,3 +74,10 @@ ul {
 }
 
 /* Підвал сторінки */
+.address {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.address .link {
+    color: rgba(255, 255, 255, 1);
+}
