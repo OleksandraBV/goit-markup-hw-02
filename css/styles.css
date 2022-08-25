@@ -34,10 +34,18 @@ body {
     color: #2196F3;
 }
 
-.aut-nav {
+.aut-nav list {
     color: #757575;
 }
 
 ul {
     list-style: none;
+}
+
+.section {
+    color: #212121
+}
+
+.section-title {
+    color: #757575;
 }
