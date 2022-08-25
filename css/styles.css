@@ -46,6 +46,19 @@ ul {
 }
 
 /* Унікальний контент сторінки */
+
+/* Button */
+
+.button {
+    color: var(--primary-tex-color);
+}
+
+.button.primery {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+
 .section {
     color: var(--primary-tex-color)
 }
@@ -55,7 +68,3 @@ ul {
 }
 
 /* Підвал сторінки */
-
-.accent-second {
-    colo: #FFFFFF;
-}
