@@ -105,9 +105,10 @@ ul {
     letter-spacing: 0.06em;
 }
 
-.button.second {
+.button.accent {
     color: #FFFFFF;
     background-color: var(--accent-color);
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
@@ -183,15 +184,15 @@ ul {
 
 /* Підвал сторінки */
 .address {
-    color: #FFFFFF;
+    color: var(--primary-tex-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 }
-
-.address .link {
-    color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
+.address-link {
+    color: #FFFFFF;
+}
+.address-contact {
+    color:rgba(255, 255, 255, 0.6);
 }
