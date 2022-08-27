@@ -84,6 +84,11 @@ ul {
 .hero {
     color: #FFFFFF;
     background-color: var(--background-accent);
+    text-align: center;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
     
 }
 .hero-title {
@@ -112,17 +117,16 @@ ul {
     color: var(--accent-color);
 }
 
-.button.primery {
-    color: #FFFFFF;
+.button-primery{
+     color:#ffffff;
     background-color: var(--accent-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-}
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+ }
+
 .button.primery :hover,
 .button.primery :focus {
     color: var(--accent-color)
@@ -134,7 +138,6 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 .button.accent :hover,
@@ -213,26 +216,29 @@ ul {
 }
 
 /* Підвал сторінки */
-
+.footer {
+    background-color: #212121;
+}
 .address {
     color: var(--primary-tex-color);
     font-style: normal;
+}
+    
+.address.link {
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
-.address-link {
-    color: #FFFFFF;
+.address.contact {
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 1.7;
+     letter-spacing: 0.03em;
+     color: rgba(255, 255, 255, 0.6);
 }
-.address-contact {
-    color:rgba(255, 255, 255, 0.6);
-}
-.footer {
-    background-color: var(--background-accent);
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
-
+.address.contact a:hover,
+.address.contact a:focus {
+    color: var(--accent-color);
 }
