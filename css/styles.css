@@ -69,8 +69,8 @@ a {
     letter-spacing: 0.02em;
 }
 
-.auth-nav .link :hover,
-.auth-nav .link :focus {
+.auth-nav .link:hover,
+.auth-nav .link:focus {
     color: var(--accent-color);
 }
 
@@ -116,8 +116,8 @@ ul {
     letter-spacing: 0.06em;
 }
 
-.button.primery :hover,
-.button.primery :focus {
+.button.primery:hover,
+.button.primery:focus {
     color: var(--accent-color)
 }
 
@@ -131,8 +131,8 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.button.second :hover,
-.button.second :focus {
+.button.second:hover,
+.button.second:focus {
     color: #FFFFFF;
     background-color: var(--accent-color);
 }
@@ -236,8 +236,8 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.address.link :hover,
-.address.link :focus {
+.address.link:hover,
+.address.link:focus {
     color: var(--accent-color);
 }
 
@@ -249,7 +249,7 @@ ul {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.address.contact :hover,
-.address.contact :focus {
+.address.contact:hover,
+.address.contact:focus {
     color: var(--accent-color);
 }
