@@ -66,7 +66,8 @@ a {
     letter-spacing: 0.02em;
 }
 
-.auth-nav .link :hover, .auth-nav .link :focus {
+.auth-nav .link :hover,
+.auth-nav .link :focus {
     color: var(--accent-color);
 }
 
@@ -96,8 +97,14 @@ ul {
 }
 
 /* Button */
+
+.button :hover,
+.button :focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
 .button {
-    color: var(--primary-tex-color);
+    color: var (--primary-tex-color)
     cursor: pointer;
     front-family: inherit;
     font-size: 16px;
@@ -106,13 +113,9 @@ ul {
     border: none;
 }
 
-.button :hover,
-.button :focus {
-    color: var(--accent-color);
-}
 
 .button-primery{
-    color: #FFFFFF;;
+    color: #FFFFFF;
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
@@ -125,7 +128,7 @@ ul {
     color: var(--accent-color)
 }
 
-.button.accent {
+/* .button.accent { 
     color: #FFFFFF;
     background-color: var(--accent-color);
     font-weight: 500;
@@ -140,7 +143,7 @@ ul {
 .button.accent :focus {
     color: #FFFFFF;
     background-color: var(--accent-color);
-}
+}*/
 
 .section {
     color: var(--primary-tex-color)
